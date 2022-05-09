@@ -10,5 +10,7 @@
   <h1> Hello Mash King</h1>
   <?php echo "hello Mash King"; ?>
   <?php echo '<p>Привет, Одуванчик!</p>'; ?>
+  <?php echo '<p>Привет, Одуванчик!</p>'; ?>
+
 </body>
 </html>
