@@ -9,7 +9,7 @@
 <body>
 
 
-<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="shell_exec('python3 /var/www/html/dandelion/pump.py');">
+<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="shell_exec('python3 test.py');">
 
 
 </body>
