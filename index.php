@@ -8,9 +8,8 @@
 </head>
 <body>
 
-<?php
-<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python3 /var/www/html/dandelion/pump.py');">
-?>
+
+
 
 </body>
 </html>
