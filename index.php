@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python3 /pump.py');">
+<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python3 /var/www/html/dandelion/spump.py');">
 
 </body>
 </html>
