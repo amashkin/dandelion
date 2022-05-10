@@ -8,8 +8,9 @@
 </head>
 <body>
 
+$command = escapeshellcmd('python3 pump.py');
 
-<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="shell_exec('python3 test.py');">
+<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="shell_exec(command);">
 
 
 </body>
