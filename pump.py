@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(40, GPIO.OUT)
 try:
    GPIO.output(40, GPIO.HIGH)
-   sleep(0.1)
+   sleep(10)
    GPIO.output(40, GPIO.LOW)
 except KeyboardInterrupt:
     GPIO.cleanup(40)
