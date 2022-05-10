@@ -7,12 +7,21 @@
   <title>Dandelion</title>
 </head>
 <body>
-  <h1> Hello Mash King</h1>
-  <?php echo "hello Mash King"; ?>
-  <?php echo '<p>Привет, Одуванчик!</p>'; ?>
-  <?php echo '<p>Привет, Одуванчик!</p>'; ?>
-  <?php echo '<p>Привет, Одуванчик!</p>'; ?>
 
+<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script>
+        function goPython(){
+            $.ajax({
+              url: "pump.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
 
 </body>
 </html>
