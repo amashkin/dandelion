@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python pump.py');">
+<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python3 pump.py');">
 
 </body>
 </html>
