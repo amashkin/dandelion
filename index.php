@@ -15,7 +15,7 @@
     <script>
         function goPython(){
             $.ajax({
-              url: "pump.py",
+              url: "./pump.py",
              context: document.body
             }).done(function() {
              alert('finished python script');;
