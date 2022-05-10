@@ -3,8 +3,6 @@ from time import sleep
 
 GPIO.setmode(GPIO.BOARD) 
 GPIO.setup(40, GPIO.OUT)
-
-GPIO.cleanup(40)
 try:
    GPIO.output(40, GPIO.HIGH)
    sleep(0.1)
