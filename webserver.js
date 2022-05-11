@@ -1,5 +1,5 @@
 var Gpio = require('onoff').Gpio; //require onoff to control GPIO
-var LEDPin = new Gpio(4, 'out'); //declare GPIO4 an output
+var LEDPin = new Gpio(21, 'out'); //declare GPIO4 an output
 var fs = require('fs'); //require filesystem to read html files
 var http = require('http').createServer(function handler(req, res) { //create server
   fs.readFile(__dirname + '/index.html', function (err, data) { //read html file
